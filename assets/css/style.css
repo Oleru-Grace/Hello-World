@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #deecf1;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;  
+    height: 100%;
+}
+
+html,section.div{
+    height: 100%;
+}
+
+#nav{
+    
+    background: blue;
+}
+
+#nav ul{
+    list-style-type: none;
+
+}
+
+#nav ul li{
+    width: 150px;
+    color: white;
+    float: right;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px;
+
+}
+
+ul li{
+    list-style-type: none;
+}
+
+#nav ul li:hover{
+    background: white;
+    background-size: 20px;
+    border-bottom: 1px solid black;
+}
+
+#nav a{
+    color:black;
+}
+
+
+img{
+
+    border-radius: 50px;
+    display: ruby-base;
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 5px solid black;
+    margin-top: 20px;
+    align-self: auto;  
+     
+}
+
+section{
+    width: 100%;
+}
+
+aside{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.left-section{
+    padding-right: 400px;
+    float: left;
+    width: 50%;
+    padding-bottom: 30px;
+}
+
+.right-section{
+    padding-right: 400px;
+    float: right;
+    width: 50%;
+    
+}
+
+h1{
+    font-size: 60px;
+    color: black;
+}
+
+#about{
+    
+    border: 5px solid black;
+    border-radius: 50px;
+    padding: 200px;
+    margin: 30px;
+    background-size: cover;
+    background: rgb(170, 226, 221);
+    text-align: centre;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+#img{
+    position: left;
+}
+#write{
+    padding: 100px;
+    margin: 20px;
+    text-align: left;
+    font-size: 20px;;
+
+}
+
+.right-section2{  
+    padding-right: 400px;
+    float: right;
+    width: 50%;
+    font-family: Franklin Gothic Medium;
+    text-align: centre;
+    
+}
+
+.right-section3{
+    padding-right: 400px;
+    float: left;
+    width: 50%;
+    font-family: Franklin Gothic Medium;
+    text-align: centre;
+}
+
+#intro{
+    border: 30px;
+
+    padding-top: 180px;
+    text-align: center;
+}
+
+#days{
+    border-radius: 50%;
+    border-bottom-left-radius: 30p;
+}
+
+#design{
+    padding-top: 150px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 40px;
+}
+
+.albums{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.album{
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+.startup{
+    width: 100%;
+}
